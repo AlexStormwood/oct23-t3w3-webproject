@@ -40,6 +40,10 @@ function setCssThemesToStorage(){
 	localStorage.setItem("cssThemes", dataAsJsonString);
 }
 
+function setPageThemeToStorage(){
+	localStorage.setItem("pageTheme", pageTheme);
+}
+
 
 /*
 
